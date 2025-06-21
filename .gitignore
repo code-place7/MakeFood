@@ -1,0 +1,14 @@
+# Node backend
+/backend/node_modules
+/backend/.env
+
+# Expo mobile
+/mobile/node_modules
+/mobile/.expo
+/mobile/.expo-shared
+/mobile/android
+/mobile/ios
+
+# System files
+.DS_Store
+.env
