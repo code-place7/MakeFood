@@ -94,7 +94,7 @@ const HomeScreen = () => {
   }, []);
 
   if (loading && !refreshing)
-    return <LoadingSpinner message="Loading delicions recipes..." />;
+    return <LoadingSpinner message="Loading delicious recipes..." />;
 
   return (
     <View style={homeStyles.container}>
@@ -111,7 +111,7 @@ const HomeScreen = () => {
       >
         {/*  ANIMAL ICONS */}
         <View style={homeStyles.welcomeSection}>
-          <View style={{ alignItems: "center", marginBottom: 16 }}>
+          <View style={{ flex: 1, alignItems: "center", marginBottom: 16 }}>
             <Text
               style={{
                 fontSize: 32,
@@ -122,33 +122,8 @@ const HomeScreen = () => {
               MakeFOod
             </Text>
             <Text style={{ fontSize: 16, color: COLORS.textLight }}>
-              make something delicious for yourself
+              make something delicious for yourself😋
             </Text>
-          </View>
-          <View
-            style={{ flexDirection: "row", justifyContent: "center", gap: 16 }}
-          >
-            <Image
-              source={require("../../assets/images/lamb.png")}
-              style={{
-                width: 100,
-                height: 100,
-              }}
-            />
-            <Image
-              source={require("../../assets/images/chicken.png")}
-              style={{
-                width: 100,
-                height: 100,
-              }}
-            />
-            <Image
-              source={require("../../assets/images/pork.png")}
-              style={{
-                width: 100,
-                height: 100,
-              }}
-            />
           </View>
         </View>
 
