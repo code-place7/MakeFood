@@ -58,7 +58,11 @@ export const MealAPI = {
     try {
       const response = await fetch(`${BASE_URL}/categories.php`);
       const data = await response.json();
-      return data.categories || [];
+      // Filter out Beef, Lamb, and Pork categories
+      const excluded = ["Beef", "Lamb", "Pork"];
+      return (data.categories || []).filter(
+        (cat) => !excluded.includes(cat.strCategory)
+      );
     } catch (error) {
       console.error("Error getting categories:", error);
       return [];
