@@ -69,8 +69,8 @@ Built with **React Native**, **Expo**, and powered by [TheMealDB API](https://ww
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="mobile/assets/makefood.jpg" width="250" alt="Home Screen" />
-  <img src="mobile/assets/makefood2.jpg" width="250" alt="Search screen" />
+  <img src="mobile/assets/images/makefood.jpg" width="250" alt="Home Screen" />
+  <img src="mobile/assets/images/makefood2.jpg" width="250" alt="Search screen" />
 </p>
 
 ---
