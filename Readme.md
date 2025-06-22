@@ -1,7 +1,7 @@
 # 🍽️ MakeFOod
 
 <p align="center">
-  <img src="assets/chicken.png" alt="MakeFOod Logo" width="120" /> 
+  <img src="mobile/assets/images/chicken.png" alt="MakeFOod Logo" width="120" /> 
 </p>
 
 A beautiful mobile app to discover, filter, and cook delicious recipes!  
@@ -69,8 +69,8 @@ Built with **React Native**, **Expo**, and powered by [TheMealDB API](https://ww
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="assets/makefood.jpg" width="250" alt="Home Screen" />
-  <img src="assets/makefood2.jpg" width="250" alt="Search screen" />
+  <img src="mobile/assets/makefood.jpg" width="250" alt="Home Screen" />
+  <img src="mobile/assets/makefood2.jpg" width="250" alt="Search screen" />
 </p>
 
 ---
