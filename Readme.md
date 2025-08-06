@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🍽️ MakeFOod
 
 <p align="center">
@@ -6,6 +8,7 @@
 
 A beautiful mobile app to discover, filter, and cook delicious recipes!  
 Built with **React Native**, **Expo**, and powered by [TheMealDB API](https://www.themealdb.com/).
+</div>
 
 ---
 
@@ -77,17 +80,23 @@ Built with **React Native**, **Expo**, and powered by [TheMealDB API](https://ww
 
 ## 🤝 Contributing
 
-Pull requests and suggestions are welcome!  
-Feel free to open an issue or submit a PR.
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you would like to change.
+
+## 📞 Contact
+
+Have questions or suggestions? Reach out to us:
+
+- **Email**: monumandel3@gmail.com
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
+<div align="center">
+  
+### ⭐ Star us on GitHub — it helps!
 <p align="center">
-  <sub>Made with ❤️ using React Native, Expo, and TheMealDB API</sub>
+ 👨‍💻 Author
+Monu Mandal 
 </p>
+
+</div>
